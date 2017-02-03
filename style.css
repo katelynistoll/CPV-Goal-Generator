@@ -46,8 +46,30 @@ table {
 #calc_button {
 	font-weight: bold;
 	border: none;
-	background-color: white;
+	background-color: #ffffff;
 	font-size: 1em;
+	border: 1px solid #ee3322;
+	padding: 0.2em;
+	border-radius: 0.2em;
+	box-shadow: 0 2px #ee3322;
+	margin-left: 2px;
+	outline: none;
+}
+
+
+#calc_button:hover {
+	background-color: #ffcec9;
+}
+
+#calc_button:active {
+	font-weight: bold;
+	border: none;
+	background-color: #ffcec9;
+	font-size: 1em;
+	border: 1px solid #ee3322;
+	padding: 0.2em;
+	border-radius: 0.2em;
+	box-shadow: 0 1px #ee3322;
 }
 
 #country_select {
@@ -112,4 +134,11 @@ button.copybutton {
 	border: none;
 	background-color: white;
 	font-size: 0.9em;
+	outline:none;
+}
+
+.copybutton:active {
+	background: #ee3322;
+	border-radius: 0.2em;
+	padding: 0.023em;
 }
